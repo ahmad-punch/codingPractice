@@ -8,12 +8,13 @@
 // circleOfNumbers(n, firstNumber) = 7.
 
 function circleOfNumbers(n, firstNumber) {
-    const midPoint=n/2;
-    const value=midPoint+firstNumber;
-    if(value>=n){
-        return value -n;
-    }
-    else{return value;}
+  const midPoint = n / 2;
+  const value = midPoint + firstNumber;
+  if (value >= n) {
+    return value - n;
+  } else {
+    return value;
+  }
 }
 
 //10 minutes. Went to a wrong approach//code signal said 100% faster than average.
